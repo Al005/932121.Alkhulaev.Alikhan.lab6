@@ -1,0 +1,50 @@
+html,body {
+    margin:0;
+    width: 100%;
+}
+
+.content {
+    width: 60%;
+    height: 500px;
+    margin:0 auto;
+    text-align: center;
+}
+
+.button_bar {
+    font-size: 0;
+    width: 100%;
+}
+
+button{
+    width:33.33%;
+    background-color: red;
+    color: white;
+    height: 50px;
+    font-size: 20px;
+    padding:0;
+    border:2px solid black;
+}
+
+.main_left, .main_right {
+    width: calc(50% - 20px);
+    float: left;
+    margin:0;
+    padding: 10px;
+    padding-bottom: 100px;
+}
+.main_left {
+    background-color: blue;
+}
+.main_right {
+    background-color: green;
+}
+.img_cat, .img_dog{
+    width: 100% ;
+    height: 400px;
+    margin:0;
+    padding: 0;
+}
+button:hover{
+    cursor: pointer;
+    background-color: rgb(180, 0, 0);
+}
